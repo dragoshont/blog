@@ -5,11 +5,11 @@ draft: false
 type: "page"
 ---
 
-# From Builder to Leader: My Journey in Tech
+## From Builder to Leader: My Journey in Tech
 
-I believe the best technical leaders are those who never lose their passion for the craft. For me, that craft has always been about solving interesting problems with code. My journey in tech didn't start with a desire to manage people; it started with a love for building things, for the elegant logic of a well-written application, and for the thrill of making something new work.
+I believe the best technical leaders are those who never lose their passion for the craft. For me, that craft has always been about solving interesting problems with code. My journey in tech didn't start with a desire to manage people; it started with a love for building things.
 
-For over a decade, I was a hands-on software engineer, working on everything from enterprise systems to custom applications. Those years in the code taught me the fundamentals of system design, the importance of clean architecture, and the discipline of seeing a project through from a blank file to a production release. That experience is the foundation of my leadership philosophy today.
+For over 15 years, I was a hands-on software engineer, building robust systems across a wide range of industries, including finance, banking, energy, compliance, and security.  Those years in the code, solving diverse problems in complex domains, taught me the fundamentals of system design, the importance of clean architecture, and the discipline of seeing a project through from a blank file to a production release. That experience is the foundation of my leadership philosophy today. 
 
 ## The Shift: Empowering People
 
@@ -17,11 +17,13 @@ The transition to management was a deliberate one. I realized that the problems 
 
 This is what I love about being a leader: teaching and mentoring, fostering a culture of accountability, and clearing the path so that talented engineers can focus on what they do best. I still write code, and my passion for cloud technology and automation keeps me grounded in the daily realities of modern software development.
 
-## Beyond the Keyboard
+## Beyond the Keyboard: Projects, Family, and Travel
 
-When I'm not leading teams or experimenting in my homelab, I'm usually planning the next adventure with my wife and son. Traveling has a way of putting complex problems into perspective. It teaches you about planning, adapting to the unexpected, and the importance of the journey itself—lessons that are just as valuable in a sprint planning meeting as they are in an airport.
+When I'm not leading teams at Microsoft or experimenting in my homelab, I'm usually planning the next adventure with my wife and son. Traveling has a way of putting complex problems into perspective. It teaches you about planning, adapting to the unexpected, and the importance of the journey itself—lessons that are just as valuable in a sprint planning meeting as they are in an airport.
 
-This blog is a place for me to share that journey—the technical insights, the leadership lessons, and the occasional story from the road.
+This passion for building and exploring extends to our family projects. We love to create things together, whether it's a piece of software to plan our next trip or a new gadget for our home. These projects are more than just a hobby; they're a way to blend my love for technology with my love for my family, and you'll see them reflected in the posts on this blog.
+
+This space is where I'll share that entire journey—the technical insights, the leadership lessons, and the stories from our family projects and travels.
 
 ## Let's Connect
 

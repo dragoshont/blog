@@ -12,8 +12,7 @@ params:
     enabled: true
     title: "Dragos Hont"
     subtitle: | # This is your UVP - the core of your brand
-      I am a pragmatic Senior Engineering Manager who builds high-performing teams by empowering developers. Grounded in a deep love for writing code, cloud, and automation, I lead by example to solve complex problems and foster a culture of accountability and operational excellence. When I'm not exploring new tech, I'm planning the next travel adventure with my family.
-    imageUrl: "/images/profile.jpg" # Add a professional headshot to /static/images/profile.jpg
+      I am a pragmatic Software Engineering Manager with over 15 years of experience building software in finance, banking, energy, compliance, and security.  I build high-performing teams by empowering developers, leading by example with a deep love for code, cloud, and automation to solve complex problems and foster operational excellence. When I'm not exploring new tech, I'm planning the next travel adventure with my family.
     imageWidth: 150
     imageHeight: 150
     imageTitle: "Dragos Hont"

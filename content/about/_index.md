@@ -23,7 +23,7 @@ When I'm not leading teams or experimenting in my homelab, I'm usually planning 
 
 This passion for building and exploring extends to our family projects. We love to create things together, whether it's a piece of software to plan our next trip or a new gadget for our home. These projects are more than just a hobby; they're a way to blend my love for technology with my love for my family, and you'll see them reflected in the posts on this blog.
 
-This space is where I'll share that entire journey—the technical insights, the leadership lessons, and the stories from our family projects and travels.
+This space is where I'll share that entire journey from the technical insights, the leadership lessons, and the stories from our family projects and travels.
 
 ## Let's Connect
 

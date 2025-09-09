@@ -24,7 +24,7 @@ In reality, for the engineers and data scientists on the ground, this disconnect
 
 The official solution sounds simple: just move the data. But anyone who has tried this on a sensitive, terabyte-scale production dataset knows the truth. The process is a gantlet of hidden complexities:
 
-- **The Sovereignty Gauntlet:** In Europe, with regulations like GDPR, data isn't just data; it's a legal liability.[1] You can’t just move it. You must navigate a labyrinth of data residency controls, encryption policies, and key management systems. While cloud providers offer regional services, they are not a silver bullet. They require deep expertise and add significant cost and complexity, creating what I call a "sovereignty gap" between regulatory requirements and technical reality.[1]
+- **The Sovereignty Gauntlet:** In Europe, with regulations like GDPR, data isn't just data; it's a legal liability. You can’t just move it. You must navigate a labyrinth of data residency controls, encryption policies, and key management systems. While cloud providers offer regional services, they are not a silver bullet. They require deep expertise and add significant cost and complexity, creating what I call a "sovereignty gap" between regulatory requirements and technical reality.
 - **The Cognitive Overhead Tax:** Each tool for data transfer, transformation, and security comes with its own quirks, APIs, and permissions models. Instead of focusing on building a better model, your team pays a heavy "cognitive overhead tax," spending their energy just trying to navigate the unforgiving internal ecosystem of the cloud platform.
 - **The "Stale Model" Compromise:** Faced with this friction, many teams make a dangerous compromise. They work with stale, sampled, or anonymized data that’s easier to move. The result? Models that are fundamentally disconnected from the business reality they’re supposed to predict, making them less accurate and, in some cases, completely useless.
 
@@ -44,15 +44,15 @@ These illusions feed into each other, creating a cycle of technical debt that cr
 
 ## 3. The Interoperability Tax: The Price of Walled Gardens
 
-The final silent killer is the one that frustrates engineers the most: the **Interoperability Tax**. This is the massive, hidden cost you pay for using a fragmented and proprietary set of tools that don't talk to each other.[2] On their own, many cloud services are powerful. But when you try to assemble them into a cohesive workflow, you are taxed at every connection point with friction, custom code, and complexity.
+The final silent killer is the one that frustrates engineers the most: the **Interoperability Tax**. This is the massive, hidden cost you pay for using a fragmented and proprietary set of tools that don't talk to each other. On their own, many cloud services are powerful. But when you try to assemble them into a cohesive workflow, you are taxed at every connection point with friction, custom code, and complexity.
 
-From my experience, this isn't an accident; it's a business model. The goal of a "walled garden" is to make it easy to work with services *inside* the garden and incredibly difficult to connect with anything *outside* of it.[3]
+From my experience, this isn't an accident; it's a business model. The goal of a "walled garden" is to make it easy to work with services *inside* the garden and incredibly difficult to connect with anything *outside* of it.
 
 This tax shows up in several ways:
 
 - **The "Reinventing the Wheel" Cycle:** In a large organization, the lack of a common, open standard means dozens of teams are constantly building the same custom connectors and bespoke solutions for the same problems. This duplication of effort is a colossal waste of engineering talent.
-- **The "Best Tool" Penalty:** Your data science team might find the absolute best tool for data validation from a new vendor, but they can't use it. Why? Because it doesn't easily integrate with your company's monolithic, proprietary MLOps platform. Teams are forced to use inferior tools simply because they are part of the approved "garden," stifling innovation and leading to worse outcomes.[4]
-- **Architectural Rigidity:** A proprietary, non-interoperable stack locks you into a single vendor's vision of the world. When a better technology emerges, you can't adopt it without a painful, multi-year migration. You lose your architectural freedom.[5]
+- **The "Best Tool" Penalty:** Your data science team might find the absolute best tool for data validation from a new vendor, but they can't use it. Why? Because it doesn't easily integrate with your company's monolithic, proprietary MLOps platform. Teams are forced to use inferior tools simply because they are part of the approved "garden," stifling innovation and leading to worse outcomes.
+- **Architectural Rigidity:** A proprietary, non-interoperable stack locks you into a single vendor's vision of the world. When a better technology emerges, you can't adopt it without a painful, multi-year migration. You lose your architectural freedom.
 
 To be clear, this isn't about being anti-cloud. The major platforms provide a phenomenal foundation of power and trust: elastic compute, planet-scale storage, managed security, and audited compliance that few companies could achieve alone. The goal is to leverage that powerful foundation, not be locked into it. We need the freedom to connect these services through an open, flexible layer that puts you, not the vendor, in control of your architecture.
 

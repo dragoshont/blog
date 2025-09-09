@@ -1,7 +1,7 @@
 ---
 title: "The Silent Killers of Enterprise AI"
 summary: "Three hidden forces that quietly sabotage enterprise AI projects: data disconnect, cost illusions, and interoperability tax."
-date: 2025-09-10
+date: 2025-09-09
 description: "Foundational challenges that derail enterprise AI projects: the data disconnect, hidden costs, and the interoperability tax."
 author: "Dragos Hont"
 tags: ["AI", "MLOps", "Enterprise", "Cloud"]

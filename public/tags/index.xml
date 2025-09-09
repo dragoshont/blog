@@ -6,35 +6,6 @@
     <description>Recent content in Tags on Dragos Hont</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://dragoshont.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>AI</title>
-      <link>https://dragoshont.com/tags/ai/</link>
-      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://dragoshont.com/tags/ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cloud</title>
-      <link>https://dragoshont.com/tags/cloud/</link>
-      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://dragoshont.com/tags/cloud/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Enterprise</title>
-      <link>https://dragoshont.com/tags/enterprise/</link>
-      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://dragoshont.com/tags/enterprise/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>MLOps</title>
-      <link>https://dragoshont.com/tags/mlops/</link>
-      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://dragoshont.com/tags/mlops/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

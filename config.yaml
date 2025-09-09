@@ -3,6 +3,7 @@ baseURL: "https://dragoshont.com/"
 languageCode: "en-us"
 title: "Dragos Hont"
 theme: ["PaperMod"]
+googleAnalytics: "G-M91XV888K2"
 
 # Enable Profile Mode for a strong, personal landing page
 params:

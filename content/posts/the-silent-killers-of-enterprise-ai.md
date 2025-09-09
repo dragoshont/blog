@@ -1,7 +1,7 @@
 ---
 title: "The Silent Killers of Enterprise AI"
 date: 2025-09-09
-description: "A Senior Software Manager from Microsoft and Amazon details the three foundational challenges that derail enterprise AI projects: the data disconnect, hidden costs, and the interoperability tax."
+description: "Foundational challenges that derail enterprise AI projects: the data disconnect, hidden costs, and the interoperability tax."
 author: "An MLOps Manager"
 tags: ["AI", "MLOps", "Enterprise", "Cloud", "Vendor Lock-In"]
 draft: false

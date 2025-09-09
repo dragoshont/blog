@@ -1,5 +1,5 @@
 # Main Configuration
-baseURL: "https://dragoshont.com/"
+baseURL: "https://{{ .Env.CF_PAGES_URL }}/"
 languageCode: "en-us"
 title: "Dragos Hont"
 theme: ["PaperMod"]

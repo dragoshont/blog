@@ -82,4 +82,19 @@ I'm starting a journey to build a new open-source platform based on these princi
     <span>Enterprise AI Adoption: Common Challenges and How to Overcome Them</span>
   </a>
 
-  <a class="source-card" href="https://riskimmune.com/ai-in-the-cloud-the-hidden-security
+  <a class="source-card" href="https://riskimmune.com/ai-in-the-cloud-the-hidden-security-privacy-risks-you-need-to-know/" target="_blank" rel="noopener">
+    <img src="https://www.google.com/s2/favicons?sz=64&domain=riskimmune.com" alt="RiskImmune">
+    <span>AI in the Cloud: Hidden Security & Privacy Risks</span>
+  </a>
+
+  <a class="source-card" href="https://www.datagrom.com/data-science-machine-learning-ai-blog/data-science-tech-vendor-lock-in" target="_blank" rel="noopener">
+    <img src="https://www.google.com/s2/favicons?sz=64&domain=datagrom.com" alt="DataGrom">
+    <span>Data Science Tech Vendor Lock-In</span>
+  </a>
+
+  <a class="source-card" href="https://www.cloudficient.com/blog/how-to-avoid-cloud-vendor-lock-in" target="_blank" rel="noopener">
+    <img src="https://www.google.com/s2/favicons?sz=64&domain=cloudficient.com" alt="Cloudficient">
+    <span>How to Avoid Cloud Vendor Lock-In</span>
+  </a>
+
+</div>

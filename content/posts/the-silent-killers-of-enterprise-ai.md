@@ -4,7 +4,7 @@ summary: "Three hidden forces that quietly sabotage enterprise AI projects: data
 date: 2025-09-01 # writing date
 description: "Foundational challenges that derail enterprise AI projects: the data disconnect, hidden costs, and the interoperability tax."
 author: "Dragos Hont"
-tags: ["AI", "MLOps", "Enterprise", "Cloud", "Vendor Lock-In"]
+tags: ["AI", "MLOps", "Enterprise", "Cloud"]
 draft: false
 ---
 

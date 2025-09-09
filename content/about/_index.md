@@ -19,7 +19,7 @@ This is what I love about being a leader: teaching and mentoring, fostering a cu
 
 ## Beyond the Keyboard: Projects, Family, and Travel
 
-When I'm not leading teams at Microsoft or experimenting in my homelab, I'm usually planning the next adventure with my wife and son. Traveling has a way of putting complex problems into perspective. It teaches you about planning, adapting to the unexpected, and the importance of the journey itself—lessons that are just as valuable in a sprint planning meeting as they are in an airport.
+When I'm not leading teams or experimenting in my homelab, I'm usually planning the next adventure with my wife and son. Traveling has a way of putting complex problems into perspective. It teaches you about planning, adapting to the unexpected, and the importance of the journey itself—lessons that are just as valuable in a sprint planning meeting as they are in an airport.
 
 This passion for building and exploring extends to our family projects. We love to create things together, whether it's a piece of software to plan our next trip or a new gadget for our home. These projects are more than just a hobby; they're a way to blend my love for technology with my love for my family, and you'll see them reflected in the posts on this blog.
 
@@ -27,14 +27,4 @@ This space is where I'll share that entire journey—the technical insights, the
 
 ## Let's Connect
 
-I'm always open to connecting with fellow engineering leaders, developers, and tech enthusiasts. You can find me on [LinkedIn](https://www.linkedin.com/in/your-profile) and [X](https://x.com/your-handle).
-
-## Your First Few Blog Posts
-
-To get started, here are three post ideas that directly align with these brand pillars:
-
-- The Pragmatic Builder: "My Homelab: A Pragmatic Approach to Operational Excellence" — an evolution of previous posts framed with this brand language.
-- The Empowering Leader: "From Code Commits to 1-on-1s: The Most Surprising Lessons from My First Year in Management."
-- The Adventurous Engineer: "Building a Family Travel Planner: A Side Project in Blending Passion with Code."
-
-By combining a clean, professional style with authentic, value-driven writing, this blog will be a headquarters for my personal brand.
+I'm always open to connecting with fellow engineering leaders, developers, and tech enthusiasts. You can find me on [LinkedIn](https://linkedin.com/in/dragoshont), [X](https://x.com/DragosHont), and [GitHub](https://github.com/dragoshont).

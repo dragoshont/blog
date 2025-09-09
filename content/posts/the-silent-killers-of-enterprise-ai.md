@@ -8,8 +8,6 @@ tags: ["AI", "MLOps", "Enterprise", "Cloud", "Vendor Lock-In"]
 draft: false
 ---
 
-*(Disclaimer: All views expressed here are my own and do not represent the opinions of my current or former employers.)*
-
 For the past several years, I’ve had a front-row seat to the AI and MLOps revolution from inside two of the largest tech companies in the world. I’ve helped build and manage MLOps engineering teams at Amazon Web Services and now lead a senior software team in Microsoft's Sovereign Cloud space in Europe. I’ve seen the incredible power of these platforms to solve problems at a global scale.
 
 I’ve also seen the friction.
@@ -76,26 +74,10 @@ I'm starting a journey to build a new open-source platform based on these princi
 
 ## Sources
 
-<div class="source-cards">
+- [Enterprise AI Adoption: Common Challenges and How to Overcome Them](https://www.suse.com/c/enterprise-ai-adoption-common-challenges-and-how-to-overcome-them/)
+- [AI in the Cloud: Hidden Security & Privacy Risks](https://riskimmune.com/ai-in-the-cloud-the-hidden-security-privacy-risks-you-need-to-know/)
+- [Data Science Tech Vendor Lock-In](https://www.datagrom.com/data-science-machine-learning-ai-blog/data-science-tech-vendor-lock-in)
+- [How to Avoid Cloud Vendor Lock-In](https://www.cloudficient.com/blog/how-to-avoid-cloud-vendor-lock-in)
 
-  <a class="source-card" href="https://www.suse.com/c/enterprise-ai-adoption-common-challenges-and-how-to-overcome-them/" target="_blank" rel="noopener">
-    <img src="https://www.google.com/s2/favicons?sz=64&domain=suse.com" alt="SUSE">
-    <span>Enterprise AI Adoption: Common Challenges and How to Overcome Them</span>
-  </a>
 
-  <a class="source-card" href="https://riskimmune.com/ai-in-the-cloud-the-hidden-security-privacy-risks-you-need-to-know/" target="_blank" rel="noopener">
-    <img src="https://www.google.com/s2/favicons?sz=64&domain=riskimmune.com" alt="RiskImmune">
-    <span>AI in the Cloud: Hidden Security & Privacy Risks</span>
-  </a>
-
-  <a class="source-card" href="https://www.datagrom.com/data-science-machine-learning-ai-blog/data-science-tech-vendor-lock-in" target="_blank" rel="noopener">
-    <img src="https://www.google.com/s2/favicons?sz=64&domain=datagrom.com" alt="DataGrom">
-    <span>Data Science Tech Vendor Lock-In</span>
-  </a>
-
-  <a class="source-card" href="https://www.cloudficient.com/blog/how-to-avoid-cloud-vendor-lock-in" target="_blank" rel="noopener">
-    <img src="https://www.google.com/s2/favicons?sz=64&domain=cloudficient.com" alt="Cloudficient">
-    <span>How to Avoid Cloud Vendor Lock-In</span>
-  </a>
-
-</div>
+*(Disclaimer: All views expressed here are my own and do not represent the opinions of my current or former employers.)*

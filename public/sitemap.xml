@@ -2,23 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://dragoshont.com/</loc>
     <lastmod>2025-09-09T21:22:03+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/first-post/</loc>
+    <loc>https://dragoshont.com/posts/</loc>
     <lastmod>2025-09-09T21:22:03+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-09-09T21:22:03+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/second-post/</loc>
-    <lastmod>2025-09-09T21:22:03+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://dragoshont.com/about/</loc>
     <lastmod>2025-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://dragoshont.com/tags/ai/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://dragoshont.com/tags/cloud/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dragoshont.com/tags/enterprise/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dragoshont.com/tags/mlops/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dragoshont.com/tags/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dragoshont.com/posts/the-silent-killers-of-enterprise-ai/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dragoshont.com/categories/</loc>
   </url>
 </urlset>

@@ -1,0 +1,9 @@
+# Hugo generated public site output
+/public/
+
+# Generated resources
+/resources/_gen/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,5 +1,8 @@
 # Generated resources
 /resources/_gen/
+public/
+resources/
+.hugo_build.lock
 
 # OS files
 .DS_Store

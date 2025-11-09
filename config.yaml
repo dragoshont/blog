@@ -11,21 +11,22 @@ markup:
       unsafe: true
 # Enable Profile Mode for a strong, personal landing page
 params:
-  # --- Profile Mode (ENABLED) ---
+  # --- Profile Mode (disabled to show extended bio block) ---
   profileMode:
-    enabled: true
-    title: "Dragos Hont" # Main Name/Title for the Profile box
-    subtitle: "Software Engineering Leader & Pragmatist" # A professional tagline
-    imageUrl: "/images/profile.webp"
-    imageTitle: "Dragos Hont"
-    imageWidth: 160
-    imageHeight: 160
+    enabled: false
   homeInfoParams:
     Title: "Welcome"
     Content: |
-      <p><strong>Software engineering leadership, agentic AI, governance, and the developer inner loop.</strong></p>
-      <p>I am a pragmatic Software Engineering Manager with over 15 years building software in finance, banking, energy, compliance, and security. I build high‑performing teams by empowering developers, leading by example with a deep love for code, cloud, and automation.</p>
-      <p>Exploring **pragmatic patterns** from enterprise platforms & sovereign cloud. See recent posts below.</p>
+      <div class="home-intro">
+        <img class="home-avatar" src="/images/profile.webp" alt="Dragos Hont" width="160" height="160" loading="lazy" />
+        <div class="home-bio">
+          <p><strong>Software engineering leadership, agentic AI, governance, and the developer inner loop.</strong></p>
+          <p>I am a pragmatic Software Engineering Manager with over 15 years of experience building software in finance, banking, energy, compliance, and security. I build high‑performing teams by empowering developers, leading by example with a deep love for code, cloud, and automation to solve complex problems and foster operational excellence.</p>
+          <p>I care deeply about developer experience, sustainable velocity, governance that doesn't suffocate creativity, and using AI responsibly to accelerate clarity—especially at the requirements stage where most delivery friction originates.</p>
+          <p>When I'm not exploring new tech, I'm planning the next travel adventure with my family.</p>
+          <p><em>Exploring pragmatic patterns from enterprise platforms & sovereign cloud. Recent posts below.</em></p>
+        </div>
+      </div>
 
 
   # --- Social Icons ---

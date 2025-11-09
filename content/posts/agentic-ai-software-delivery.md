@@ -1,12 +1,14 @@
 ---
 title: "Agentic AI in Software Delivery: Why Requirements Matter Most"
-summary: "How autonomous AI agents can transform the requirements phase — the biggest bottleneck in software delivery."
+summary: "How autonomous AI agents can transform the requirements phase - the biggest bottleneck in software delivery."
 date: 2025-11-09
 description: "Exploring how agentic AI, RAG, and the Model Context Protocol can clarify requirements and accelerate software delivery."
 author: "Dragos Hont"
 tags: ["AI", "Software Engineering", "Requirements", "RAG", "MCP", "Agentic AI"]
 draft: false
 ---
+
+# Agentic AI in Software Delivery: Why Requirements Matter Most
 
 ## The rise of AI assistants in document‑heavy enterprises
 AI powered assistants are reshaping customer service, workflow automation and content creation. PwC, Deloitte, EY and KPMG have invested in AI platforms to improve knowledge management, audit processes and compliance automation. From enhanced internal retrieval and reporting to automated finance, procurement and audit review, these document heavy organisations use AI to scale expertise and boost productivity.

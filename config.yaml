@@ -5,6 +5,11 @@ title: "Dragos Hont"
 theme: ["PaperMod"]
 googleAnalytics: "G-M91XV888K2"
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 # Enable Profile Mode for a strong, personal landing page
 params:
   # --- Profile Mode ---
@@ -19,6 +24,13 @@ params:
           <strong>Software engineering leadership, agentic AI, governance, and the developer inner loop.</strong><br/>
           I am a pragmatic Software Engineering Manager with over 15 years building software in finance, banking, energy, compliance, and security. I build high‑performing teams by empowering developers, leading by example with a deep love for code, cloud, and automation to solve complex problems and foster operational excellence. When I'm not exploring new tech, I'm planning the next travel adventure with my family.<br/><br/>
           Sharing pragmatic patterns from enterprise platforms & sovereign cloud. Recent posts below.
+          
+          <!-- Markdown fallback for environments that strip HTML -->
+          
+          ![Dragos Hont](/images/profile.webp)
+          **Software engineering leadership, agentic AI, governance, and the developer inner loop.**
+          
+          I am a pragmatic Software Engineering Manager with over 15 years building software in finance, banking, energy, compliance, and security.
         </div>
       </div>
 

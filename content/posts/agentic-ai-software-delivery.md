@@ -5,7 +5,7 @@ date: 2025-11-09
 description: "Exploring how agentic AI, RAG, and the Model Context Protocol can clarify requirements and accelerate software delivery."
 author: "Dragos Hont"
 tags: ["AI", "Software Engineering", "Requirements", "RAG", "MCP", "Agentic AI"]
-draft: true
+draft: false
 ---
 
 One of the biggest shifts in computing over the past few years has been the rise of AI‑powered assistants. Tools like ChatGPT, Google Bard and Microsoft Copilot are no longer novelties — they're reshaping customer service, workflow automation and even content creation. PwC, for example, rolled out AI assistants in 2023 to improve its internal knowledge management, giving employees faster access to insights and automated reporting. Amazon has taken a different angle, using AI algorithms to predict customer preferences and optimise logistics.

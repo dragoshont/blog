@@ -5,6 +5,7 @@ date: 2025-09-09
 description: "Foundational challenges that derail enterprise AI projects: the data disconnect, hidden costs, and the interoperability tax."
 author: "Dragos Hont"
 tags: ["AI", "MLOps", "Enterprise", "Cloud"]
+keywords: ["enterprise ai","data disconnect","cost illusion","interoperability tax","sovereignty","vendor lock-in"]
 draft: false
 aliases:
   - /ai-killers

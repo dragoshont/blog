@@ -5,9 +5,15 @@ date: 2025-09-09
 description: "Foundational challenges that derail enterprise AI projects: the data disconnect, hidden costs, and the interoperability tax."
 author: "Dragos Hont"
 tags: ["AI", "MLOps", "Enterprise", "Cloud"]
+keywords: ["enterprise ai","data disconnect","cost illusion","interoperability tax","sovereignty","vendor lock-in"]
 draft: false
 aliases:
   - /ai-killers
+cover:
+  image: "/images/the-silent-killers-of-enterprise-ai.webp"
+  alt: "Illustration for The Silent Killers of Enterprise AI"
+  caption: "Three hidden drags on AI velocity: disconnected data, invisible costs, and proprietary lock‑in"
+  relative: false
 ---
 
 For the past several years, I’ve had a front-row seat to the AI and MLOps revolution from inside two of the largest tech companies in the world. I’ve helped build and manage MLOps engineering teams at Amazon Web Services and now lead a senior software team in Microsoft's Sovereign Cloud space in Europe. I’ve seen the incredible power of these platforms to solve problems at a global scale.
@@ -82,4 +88,4 @@ I'm starting a journey to build a new open-source platform based on these princi
 - [How to Avoid Cloud Vendor Lock-In](https://www.cloudficient.com/blog/how-to-avoid-cloud-vendor-lock-in)
 
 
-*(Disclaimer: All views expressed here are my own and do not represent the opinions of my current or former employers.)*
+Disclaimer: All views expressed here are my own and do not represent the opinions of my current or former employers.

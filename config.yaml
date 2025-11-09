@@ -27,6 +27,12 @@ params:
           <p><em>Exploring pragmatic patterns from enterprise platforms & sovereign cloud. Recent posts below.</em></p>
         </div>
       </div>
+      <div id="featured-posts" class="featured-posts" data-featured='["agentic-ai-software-delivery","the-silent-killers-of-enterprise-ai"]'>
+        <h2 class="featured-title">Featured</h2>
+        <div class="featured-track" aria-live="polite"></div>
+        <button class="fp-nav prev" aria-label="Previous">&#10094;</button>
+        <button class="fp-nav next" aria-label="Next">&#10095;</button>
+      </div>
 
 
   # --- Social Icons ---
@@ -64,6 +70,9 @@ params:
   assets:
     css:
       - "css/extended/home.css" # Keep your custom CSS for minor adjustments
+      - "css/extended/featured.css"
+    js:
+      - "js/featured.js"
 
 # --- Main Menu Navigation ---
 menu:

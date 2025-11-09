@@ -8,8 +8,6 @@ tags: ["AI", "Software Engineering", "Requirements", "RAG", "MCP", "Agentic AI"]
 draft: false
 ---
 
-# Agentic AI in Software Delivery: Why Requirements Matter Most
-
 ## The rise of AI assistants in document‑heavy enterprises
 AI powered assistants are reshaping customer service, workflow automation and content creation. PwC, Deloitte, EY and KPMG have invested in AI platforms to improve knowledge management, audit processes and compliance automation. From enhanced internal retrieval and reporting to automated finance, procurement and audit review, these document heavy organisations use AI to scale expertise and boost productivity.
 

@@ -12,23 +12,23 @@ markup:
 
 # Enable Profile Mode for a strong, personal landing page
 params:
-  # --- Profile Mode (ENABLED for the new design) ---
+  # --- Profile Mode (disabled to allow custom intro section) ---
   profileMode:
-    enabled: true # <-- IMPORTANT: Changed to true
-    title: "Dragos Hont" # Your Name/Title for the Profile box
-    subtitle: "Software Engineering Leader & Pragmatist" # Your professional tagline
-    imageUrl: "/images/profile.webp" # Path to your profile image
-    imageTitle: "Dragos Hont" # Alt text for your profile image
-    imageWidth: 160
-    imageHeight: 160
+    enabled: false
   
-  # homeInfoParams is now simplified to work with profileMode
   homeInfoParams:
-    Title: "Welcome" # This can be "Welcome" or an empty string, PaperMod handles the main H1.
+    Title: "Welcome"
     Content: |
-      <h1 class="main-tagline">Pragmatic Patterns: Leadership, Agentic AI, and The Developer Inner Loop.</h1>
-      <p>I share actionable insights from over ⭐⭐ **15 years** building high-performing teams and resilient platforms in finance, banking, and security. My focus is on achieving operational excellence through code, cloud, and automation.</p>
-      <p class="call-to-action">→ <a href="#recent-posts-list">**Explore My Latest Posts Below**</a>, or check the <a href="/about/">**About**</a> page for the full professional bio.</p>
+      <div class="home-intro">
+        <img class="home-avatar" src="/images/profile.webp" alt="Dragos Hont" width="160" height="160" loading="lazy" />
+        <div class="home-bio">
+          <p><strong>Pragmatic Patterns: Leadership, Agentic AI, and the Developer Inner Loop.</strong></p>
+          <p>I share actionable insights from over ⭐⭐ <strong>15 years</strong> building high-performing teams and resilient platforms in finance, banking, and security. My focus is on achieving operational excellence through code, cloud, and automation.</p>
+          <p>I build teams by empowering developers, leading by example with a deep love for code, cloud, and automation, and using AI responsibly to accelerate clarity—especially at the requirements stage where most delivery friction originates.</p>
+          <p>When I'm not exploring new tech, I'm planning the next travel adventure with my family.</p>
+          <p class="call-to-action">→ <a href="#recent-posts-list"><strong>Explore my latest posts below</strong></a>, or visit the <a href="/about/"><strong>About</strong></a> page for the full story.</p>
+        </div>
+      </div>
 
   # --- Social Icons ---
   socialIcons:
@@ -64,10 +64,10 @@ params:
   
   assets:
     css:
-      - "css/extended/home.css" # Keep your custom CSS for minor adjustments
-      # - "css/extended/featured.css" # Removed: Featured post carousel is replaced by profileMode + recent posts
+      - "css/extended/home.css"
+      - "css/extended/featured.css"
     js:
-      # - "js/featured.js" # Removed: Featured post carousel is replaced by profileMode + recent posts
+      - "js/featured.js"
 
 # --- Main Menu Navigation ---
 menu:

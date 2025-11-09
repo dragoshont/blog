@@ -10,7 +10,13 @@
 {{- $graph := slice $blog -}}
 {{- if and .IsPage (eq .Section "posts") -}}
   {{- $image := "" -}}
-  {{- with .Params.cover }}{{ $image = .image | absURL }}{{ else if .Params.images }}{{ $image = (index .Params.images 0) | absURL }}{{ else if .Site.Params.images }}{{ $image = (index .Site.Params.images 0) | absURL }}{{ end -}}
+  {{- if .Params.cover -}}
+    {{- $image = .Params.cover.image | absURL -}}
+  {{- else if .Params.images -}}
+    {{- $image = (index .Params.images 0) | absURL -}}
+  {{- else if .Site.Params.images -}}
+    {{- $image = (index .Site.Params.images 0) | absURL -}}
+  {{- end -}}
   {{- $post := dict
     "@type" "BlogPosting"
     "headline" .Title

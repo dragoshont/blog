@@ -1,21 +1,36 @@
 ---
-title: "My New Post Title"
-summary: "A brief summary of what this post is about"
+title: "Agentic AI in Software Delivery: Why Requirements Matter Most"
+summary: "How autonomous AI agents can transform the requirements phase — the biggest bottleneck in software delivery."
 date: 2025-11-09
-description: "A more detailed description of the blog post content"
+description: "Exploring how agentic AI, RAG, and the Model Context Protocol can clarify requirements and accelerate software delivery."
 author: "Dragos Hont"
-tags: ["Tag1", "Tag2", "Tag3"]
+tags: ["AI", "Software Engineering", "Requirements", "RAG", "MCP", "Agentic AI"]
 draft: true
 ---
 
-## Introduction
+One of the biggest shifts in computing over the past few years has been the rise of AI‑powered assistants. Tools like ChatGPT, Google Bard and Microsoft Copilot are no longer novelties — they're reshaping customer service, workflow automation and even content creation. PwC, for example, rolled out AI assistants in 2023 to improve its internal knowledge management, giving employees faster access to insights and automated reporting. Amazon has taken a different angle, using AI algorithms to predict customer preferences and optimise logistics.
 
-Write your introduction here.
+But when we zoom in on software delivery, the story gets even more interesting. Every project moves through familiar stages: requirements, design, implementation, testing, release and monitoring. AI can play a role in each of these, but the requirements phase is the real bottleneck. If the "what" and "why" are unclear, everything downstream — from design to testing — suffers. Requirements are often scattered across documents, tickets, chat threads and meeting notes, which forces developers to constantly switch context and slows down delivery.
 
-## Main Content
+This is where agentic AI comes in. Think of autonomous agents that specialise in tasks: one indexes enterprise sources, another summarises stakeholder input, another synthesises acceptance criteria, and yet another sequences tasks. Together, they can turn fragmented inputs into a living, machine‑readable specification. Add IDE guardrails that surface the spec inline, and suddenly developers spend less time chasing context and more time building.
 
-Add your main content sections here.
+## Technical Patterns That Make It Practical
 
-## Conclusion
+Two technical patterns make this practical. First, Retrieval‑Augmented Generation (RAG) ensures agents pull relevant documents before generating outputs, reducing hallucinations and improving traceability. Second, the Model Context Protocol (MCP) standardises how agents access internal systems — whether that's documentation, ticket management, or repositories like Azure DevOps and GitHub. MCP servers are surprisingly simple to set up, and the marketplace of connectors is growing daily. Beyond requirements, MCP can also feed agents with incident monitoring data, project management tasks, compliance artefacts and component governance policies.
 
-Summarize your key points here.
+## Governance and Modes
+
+Of course, governance matters. Organisations can adopt different modes depending on risk: lightweight summarisation for quick wins, assisted sequencing with guardrails for teams that want more structure, and governed mode with mandatory quality gates for compliance‑sensitive projects. MCP's identity and audit layers help enforce role‑based access and tamper‑evident logs, which is critical for regulated industries.
+
+## Ethics and Convergence
+
+The ethical questions are still there: privacy, job displacement, bias. But with provenance, confidence scores and human sign‑offs, agentic AI can be deployed responsibly. And it's not just about AI — software engineering provides the templates and CI/CD pipelines, while cybersecurity ensures access control and compliance alignment. It's a convergence of disciplines, and requirements are the keystone.
+
+## Key Takeaways
+
+- **Requirements are the bottleneck:** unclear "what" and "why" slow delivery more than any other stage.
+- **Agentic AI clarifies intent:** specialised agents synthesise fragmented inputs into living specifications.
+- **RAG retrieval reduces risk:** pulling relevant documents before generation improves accuracy and provenance.
+- **MCP connectors make integration simple:** internal docs, tickets and repos can be exposed securely, with a growing marketplace of ready‑made servers.
+- **Governance is essential:** lightweight, assisted and governed modes balance speed with compliance.
+- **Ethics remain central:** privacy, bias and job displacement must be addressed with provenance and human oversight.

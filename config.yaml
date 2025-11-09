@@ -19,15 +19,31 @@ params:
   homeInfoParams:
     Title: "Welcome"
     Content: |
-      <div class="home-intro">
-        <img class="home-avatar" src="/images/profile.webp" alt="Dragos Hont" width="160" height="160" loading="lazy" />
-        <div class="home-bio">
-          <p><strong>Pragmatic Patterns: Leadership, Agentic AI, and the Developer Inner Loop.</strong></p>
+      <div class="home-hero">
+        <aside class="hero-profile" aria-labelledby="hero-name">
+          <img class="hero-avatar" src="/images/profile.webp" alt="Portrait of Dragos Hont" width="200" height="200" loading="lazy" />
+          <h2 id="hero-name">Dragos Hont</h2>
+          <p class="hero-role">Software Engineering Leader & Pragmatist</p>
+          <div class="hero-social" aria-label="Primary social links">
+            <a href="https://github.com/dragoshont" aria-label="GitHub" class="hero-social-link">GitHub</a>
+            <a href="https://linkedin.com/in/dragoshont" aria-label="LinkedIn" class="hero-social-link">LinkedIn</a>
+            <a href="https://x.com/DragosHont" aria-label="X" class="hero-social-link">X</a>
+          </div>
+        </aside>
+        <section class="hero-content">
+          <p class="hero-kicker">Welcome</p>
+          <h1>Pragmatic Patterns: Leadership, Agentic AI, and the Developer Inner Loop.</h1>
           <p>I share actionable insights from over ⭐⭐ <strong>15 years</strong> building high-performing teams and resilient platforms in finance, banking, and security. My focus is on achieving operational excellence through code, cloud, and automation.</p>
           <p>I build teams by empowering developers, leading by example with a deep love for code, cloud, and automation, and using AI responsibly to accelerate clarity—especially at the requirements stage where most delivery friction originates.</p>
           <p>When I'm not exploring new tech, I'm planning the next travel adventure with my family.</p>
-          <p class="call-to-action">→ <a href="#recent-posts-list"><strong>Explore my latest posts below</strong></a>, or visit the <a href="/about/"><strong>About</strong></a> page for the full story.</p>
-        </div>
+          <div class="hero-topics" aria-label="Featured topics">
+            <span>Agentic AI</span>
+            <span>Platform Engineering</span>
+            <span>DevOps</span>
+            <span>Governance</span>
+          </div>
+          <p class="hero-cta">→ <a href="#recent-posts-list"><strong>Explore my latest posts</strong></a> or read the <a href="/about/"><strong>full bio</strong></a>.</p>
+        </section>
       </div>
 
   # --- Social Icons ---
@@ -65,9 +81,7 @@ params:
   assets:
     css:
       - "css/extended/home.css"
-      - "css/extended/featured.css"
     js:
-      - "js/featured.js"
 
 # --- Main Menu Navigation ---
 menu:

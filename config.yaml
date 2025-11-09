@@ -18,12 +18,12 @@ params:
   homeInfoParams:
     Title: "Welcome"
     Content: |
-      <div style="display:flex;align-items:center;gap:1.25rem;flex-wrap:wrap;margin-bottom:1rem;">
-        <img src="/images/profile.webp" alt="Dragos Hont" width="150" height="150" style="border-radius:50%;box-shadow:0 2px 6px rgba(0,0,0,0.15);" loading="lazy" />
-        <div style="max-width:560px;">
-          <strong>Software engineering leadership, agentic AI, governance, and the developer inner loop.</strong><br/>
-          I am a pragmatic Software Engineering Manager with over 15 years building software in finance, banking, energy, compliance, and security. I build high‑performing teams by empowering developers, leading by example with a deep love for code, cloud, and automation to solve complex problems and foster operational excellence. When I'm not exploring new tech, I'm planning the next travel adventure with my family.<br/><br/>
-          Sharing pragmatic patterns from enterprise platforms & sovereign cloud. Recent posts below.
+      <div class="home-intro">
+        <img class="home-avatar" src="/images/profile.webp" alt="Dragos Hont" width="160" height="160" loading="lazy" />
+        <div class="home-bio">
+          <p><strong>Software engineering leadership, agentic AI, governance, and the developer inner loop.</strong></p>
+          <p>I am a pragmatic Software Engineering Manager with over 15 years building software in finance, banking, energy, compliance, and security. I build high‑performing teams by empowering developers, leading by example with a deep love for code, cloud, and automation to solve complex problems and foster operational excellence. When I'm not exploring new tech, I'm planning the next travel adventure with my family.</p>
+          <p>Sharing pragmatic patterns from enterprise platforms & sovereign cloud. Recent posts below.</p>
         </div>
       </div>
 
@@ -44,7 +44,7 @@ params:
   paginate: 10
   images: ["/images/site-cover.webp"]
   keywords: ["software engineering","agentic ai","governance","requirements","mcp","rag","leadership"]
-  ShowBreadCrumbs: true
+  ShowBreadCrumbs: false
   env: production
   extend_head: true
   defaultTheme: "auto" # Respects the user's OS light/dark mode preference
@@ -53,6 +53,9 @@ params:
   ShowReadingTime: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true # Essential for a tech blog
+  assets:
+    css:
+      - "css/extended/home.css"
 
 # --- Main Menu Navigation ---
 menu:

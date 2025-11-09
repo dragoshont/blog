@@ -11,10 +11,10 @@ keywords: ["agentic ai", "requirements", "spec driven", "mcp", "rag", "software 
 ShowToc: true
 TocOpen: false
 cover:
-	image: "/images/agentic-ai-cover.png"
-	alt: "Conceptual diagram of agentic AI improving software delivery requirements"
-	caption: "Agentic AI accelerates clarity in the requirements phase"
-	relative: false
+  image: "/images/agentic-ai-cover.png"
+  alt: "Conceptual diagram of agentic AI improving software delivery requirements"
+  caption: "Agentic AI accelerates clarity in the requirements phase"
+  relative: false
 ---
 
 One of the biggest shifts in computing over the past few years has been the rise of AI‑powered assistants. Tools like ChatGPT, Google Bard and Microsoft Copilot are no longer novelties — they're reshaping customer service, workflow automation and even content creation. PwC, for example, rolled out AI assistants in 2023 to improve its internal knowledge management, giving employees faster access to insights and automated reporting. Amazon has taken a different angle, using AI algorithms to predict customer preferences and optimise logistics.

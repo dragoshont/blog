@@ -9,31 +9,26 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
 # Enable Profile Mode for a strong, personal landing page
 params:
-  # --- Profile Mode (disabled to show extended bio block) ---
+  # --- Profile Mode (ENABLED for the new design) ---
   profileMode:
-    enabled: false
+    enabled: true # <-- IMPORTANT: Changed to true
+    title: "Dragos Hont" # Your Name/Title for the Profile box
+    subtitle: "Software Engineering Leader & Pragmatist" # Your professional tagline
+    imageUrl: "/images/profile.webp" # Path to your profile image
+    imageTitle: "Dragos Hont" # Alt text for your profile image
+    imageWidth: 160
+    imageHeight: 160
+  
+  # homeInfoParams is now simplified to work with profileMode
   homeInfoParams:
-    Title: "Welcome"
+    Title: "Welcome" # This can be "Welcome" or an empty string, PaperMod handles the main H1.
     Content: |
-      <div class="home-intro">
-        <img class="home-avatar" src="/images/profile.webp" alt="Dragos Hont" width="160" height="160" loading="lazy" />
-        <div class="home-bio">
-          <p><strong>Software engineering leadership, agentic AI, governance, and the developer inner loop.</strong></p>
-          <p>I am a pragmatic Software Engineering Manager with over 15 years of experience building software in finance, banking, energy, compliance, and security. I build high‑performing teams by empowering developers, leading by example with a deep love for code, cloud, and automation to solve complex problems and foster operational excellence.</p>
-          <p>I care deeply about developer experience, sustainable velocity, governance that doesn't suffocate creativity, and using AI responsibly to accelerate clarity—especially at the requirements stage where most delivery friction originates.</p>
-          <p>When I'm not exploring new tech, I'm planning the next travel adventure with my family.</p>
-          <p><em>Exploring pragmatic patterns from enterprise platforms & sovereign cloud. Recent posts below.</em></p>
-        </div>
-      </div>
-      <div id="featured-posts" class="featured-posts" data-featured='["agentic-ai-software-delivery","the-silent-killers-of-enterprise-ai"]'>
-        <h2 class="featured-title">Featured</h2>
-        <div class="featured-track" aria-live="polite"></div>
-        <button class="fp-nav prev" aria-label="Previous">&#10094;</button>
-        <button class="fp-nav next" aria-label="Next">&#10095;</button>
-      </div>
-
+      <h1 class="main-tagline">Pragmatic Patterns: Leadership, Agentic AI, and The Developer Inner Loop.</h1>
+      <p>I share actionable insights from over ⭐⭐ **15 years** building high-performing teams and resilient platforms in finance, banking, and security. My focus is on achieving operational excellence through code, cloud, and automation.</p>
+      <p class="call-to-action">→ <a href="#recent-posts-list">**Explore My Latest Posts Below**</a>, or check the <a href="/about/">**About**</a> page for the full professional bio.</p>
 
   # --- Social Icons ---
   socialIcons:
@@ -70,9 +65,9 @@ params:
   assets:
     css:
       - "css/extended/home.css" # Keep your custom CSS for minor adjustments
-      - "css/extended/featured.css"
+      # - "css/extended/featured.css" # Removed: Featured post carousel is replaced by profileMode + recent posts
     js:
-      - "js/featured.js"
+      # - "js/featured.js" # Removed: Featured post carousel is replaced by profileMode + recent posts
 
 # --- Main Menu Navigation ---
 menu:

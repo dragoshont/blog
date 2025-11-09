@@ -24,7 +24,7 @@ I’ve seen how brilliant, motivated teams get bogged down, not by the complexit
 
 This is the story of those silent killers.
 
-## 1. The Data Disconnect: A War of Attrition
+### 1. The Data Disconnect: A War of Attrition
 
 The first silent killer is what I call the **Data Disconnect**. On the surface, it’s a technical problem: the data you need is *here*, but the powerful AI tools you want to use are *over there*, inside a cloud provider’s walled garden.
 
@@ -38,7 +38,7 @@ The official solution sounds simple: just move the data. But anyone who has trie
 
 This isn't just inefficient. It's a systemic drain that forces your best people to spend their time on low-value plumbing instead of high-value innovation. They are fighting the toolchain instead of solving business problems.
 
-## 2. The Cost Illusion: The Invisible Ledger of MLOps
+### 2. The Cost Illusion: The Invisible Ledger of MLOps
 
 The second silent killer is the **Cost Illusion**. We are trained to manage the costs we can see: the monthly cloud bill, the headcount, the software licenses. But the most dangerous expenses in MLOps are invisible. They are the direct result of cognitive biases that are just as present in corporate budget meetings as they are in personal finance.
 
@@ -50,7 +50,7 @@ After managing multi-million dollar budgets, I've seen how these illusions creat
 
 These illusions feed into each other, creating a cycle of technical debt that cripples a company's ability to innovate at speed.
 
-## 3. The Interoperability Tax: The Price of Walled Gardens
+### 3. The Interoperability Tax: The Price of Walled Gardens
 
 The final silent killer is the one that frustrates engineers the most: the **Interoperability Tax**. This is the massive, hidden cost you pay for using a fragmented and proprietary set of tools that don't talk to each other. On their own, many cloud services are powerful. But when you try to assemble them into a cohesive workflow, you are taxed at every connection point with friction, custom code, and complexity.
 
@@ -64,7 +64,7 @@ This tax shows up in several ways:
 
 To be clear, this isn't about being anti-cloud. The major platforms provide a phenomenal foundation of power and trust: elastic compute, planet-scale storage, managed security, and audited compliance that few companies could achieve alone. The goal is to leverage that powerful foundation, not be locked into it. We need the freedom to connect these services through an open, flexible layer that puts you, not the vendor, in control of your architecture.
 
-## So, Where Do We Go From Here?
+### So, Where Do We Go From Here?
 
 The Data Disconnect, the Cost Illusion, and the Interoperability Tax are not separate issues. They are deeply intertwined symptoms of a single, core problem: our tools are not designed with the right principles in mind. We have prioritized vendor control over user control, platform lock-in over open standards, and cloud-first mandates over the developer's local workflow.
 
@@ -80,7 +80,7 @@ I'm starting a journey to build a new open-source platform based on these princi
 
 ---
 
-## Sources
+### Sources
 
 - [Enterprise AI Adoption: Common Challenges and How to Overcome Them](https://www.suse.com/c/enterprise-ai-adoption-common-challenges-and-how-to-overcome-them/)
 - [AI in the Cloud: Hidden Security & Privacy Risks](https://riskimmune.com/ai-in-the-cloud-the-hidden-security-privacy-risks-you-need-to-know/)

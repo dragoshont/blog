@@ -1,4 +1,4 @@
-(function(){
+(function(){ 
   const container=document.getElementById('featured-posts');
   if(!container) return;
   const track=container.querySelector('.featured-track');

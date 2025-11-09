@@ -6,93 +6,92 @@ theme: ["PaperMod"]
 googleAnalytics: "G-M91XV888K2"
 
 markup:
-  goldmark:
-    renderer:
-      unsafe: true
-
+  goldmark:
+    renderer:
+      unsafe: true
 # Enable Profile Mode for a strong, personal landing page
 params:
-  # --- Profile Mode (ENABLED) ---
-  profileMode:
-    enabled: true
-    title: "Dragos Hont" # Main Name/Title for the Profile box
-    subtitle: "Software Engineering Leader & Pragmatist" # A professional tagline
-    imageUrl: "/images/profile.webp"
-    imageTitle: "Dragos Hont"
-    imageWidth: 160
-    imageHeight: 160
-  homeInfoParams:
-    Title: "Welcome"
-    Content: |
-      <p><strong>Software engineering leadership, agentic AI, governance, and the developer inner loop.</strong></p>
-      <p>I am a pragmatic Software Engineering Manager with over 15 years building software in finance, banking, energy, compliance, and security. I build high‑performing teams by empowering developers, leading by example with a deep love for code, cloud, and automation.</p>
-      <p>Exploring **pragmatic patterns** from enterprise platforms & sovereign cloud. See recent posts below.</p>
+  # --- Profile Mode (ENABLED) ---
+  profileMode:
+    enabled: true
+    title: "Dragos Hont" # Main Name/Title for the Profile box
+    subtitle: "Software Engineering Leader & Pragmatist" # A professional tagline
+    imageUrl: "/images/profile.webp"
+    imageTitle: "Dragos Hont"
+    imageWidth: 160
+    imageHeight: 160
+  homeInfoParams:
+    Title: "Welcome"
+    Content: |
+      <p><strong>Software engineering leadership, agentic AI, governance, and the developer inner loop.</strong></p>
+      <p>I am a pragmatic Software Engineering Manager with over 15 years building software in finance, banking, energy, compliance, and security. I build high‑performing teams by empowering developers, leading by example with a deep love for code, cloud, and automation.</p>
+      <p>Exploring **pragmatic patterns** from enterprise platforms & sovereign cloud. See recent posts below.</p>
 
 
-  # --- Social Icons ---
-  socialIcons:
-    - name: "github"
-      url: "https://github.com/dragoshont"
-    - name: "linkedin"
-      url: "https://linkedin.com/in/dragoshont"
-    - name: "x"
-      url: "https://x.com/DragosHont"
+  # --- Social Icons ---
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/dragoshont"
+    - name: "linkedin"
+      url: "https://linkedin.com/in/dragoshont"
+    - name: "x"
+      url: "https://x.com/DragosHont"
 
-  # --- General Site Parameters ---
-  author: "Dragos Hont"
-  description: "A blog by Dragos Hont about pragmatic leadership, cloud, automation, and empowering developers."
-  # Homepage listing configuration
-  mainSections: ["posts"]
-  paginate: 10
-  images: ["/images/site-cover.webp"]
-  keywords: ["software engineering","agentic ai","governance","requirements","mcp","rag","leadership"]
-  ShowBreadCrumbs: false
-  env: production
-  extend_head: true
-  defaultTheme: "auto"
-  disableThemeToggle: false
-  ShowShareButtons: true
-  ShowReadingTime: true
-  ShowPostNavLinks: true
-  ShowCodeCopyButtons: true
+  # --- General Site Parameters ---
+  author: "Dragos Hont"
+  description: "A blog by Dragos Hont about pragmatic leadership, cloud, automation, and empowering developers."
+  # Homepage listing configuration
+  mainSections: ["posts"]
+  paginate: 10
+  images: ["/images/site-cover.webp"]
+  keywords: ["software engineering","agentic ai","governance","requirements","mcp","rag","leadership"]
+  ShowBreadCrumbs: false
+  env: production
+  extend_head: true
+  defaultTheme: "auto"
+  disableThemeToggle: false
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
 
-  # --- Content Discovery (New/Improved) ---
-  ShowTags: true # Show tags on posts and potentially a list on the homepage
-  ShowCategories: true # Show categories on posts and potentially a list on the homepage
-  ShowPostContentOnHomepage: false # Ensures a clean, list-style homepage
-  
-  assets:
-    css:
-      - "css/extended/home.css" # Keep your custom CSS for minor adjustments
+  # --- Content Discovery (New/Improved) ---
+  ShowTags: true # Show tags on posts and potentially a list on the homepage
+  ShowCategories: true # Show categories on posts and potentially a list on the homepage
+  ShowPostContentOnHomepage: false # Ensures a clean, list-style homepage
+  
+  assets:
+    css:
+      - "css/extended/home.css" # Keep your custom CSS for minor adjustments
 
 # --- Main Menu Navigation ---
 menu:
-  main:
-    - identifier: posts
-      name: Blog
-      url: /posts/
-      weight: 10
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 20
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 30
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 40
+  main:
+    - identifier: posts
+      name: Blog
+      url: /posts/
+      weight: 10
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 40
 
 # --- Outputs for Search Functionality ---
 outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON 
+  home:
+    - HTML
+    - RSS
+    - JSON 
 sitemap:
-  changefreq: "weekly"
-  priority: 0.5
-  filename: "sitemap.xml"
+  changefreq: "weekly"
+  priority: 0.5
+  filename: "sitemap.xml"
 enableRobotsTXT: true

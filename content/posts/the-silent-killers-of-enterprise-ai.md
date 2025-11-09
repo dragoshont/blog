@@ -8,6 +8,11 @@ tags: ["AI", "MLOps", "Enterprise", "Cloud"]
 draft: false
 aliases:
   - /ai-killers
+cover:
+  image: "/images/the-silent-killers-of-enterprise-ai.png"
+  alt: "Illustration for The Silent Killers of Enterprise AI"
+  caption: "Three hidden drags on enterprise AI velocity: the data disconnect, the cost illusion, and the interoperability tax"
+  relative: false
 ---
 
 For the past several years, I’ve had a front-row seat to the AI and MLOps revolution from inside two of the largest tech companies in the world. I’ve helped build and manage MLOps engineering teams at Amazon Web Services and now lead a senior software team in Microsoft's Sovereign Cloud space in Europe. I’ve seen the incredible power of these platforms to solve problems at a global scale.

@@ -1,32 +1,28 @@
-{{/* JSON-LD Structured Data */}}
-{{ $author := (cond (isset .Site.Params "author") .Site.Params.author "") }}
+{{/* JSON-LD Structured Data (robust build using Hugo data + jsonify) */}}
+{{- $author := .Site.Params.author | default "" -}}
+{{- $blog := dict
+  "@type" "Blog"
+  "name" .Site.Title
+  "url" .Site.BaseURL
+  "description" .Site.Params.description
+  "publisher" (dict "@type" "Person" "name" $author)
+-}}
+{{- $graph := slice $blog -}}
+{{- if and .IsPage (eq .Section "posts") -}}
+  {{- $image := "" -}}
+  {{- with .Params.cover }}{{ $image = .image | absURL }}{{ else if .Params.images }}{{ $image = (index .Params.images 0) | absURL }}{{ else if .Site.Params.images }}{{ $image = (index .Site.Params.images 0) | absURL }}{{ end -}}
+  {{- $post := dict
+    "@type" "BlogPosting"
+    "headline" .Title
+    "description" (.Summary | plainify)
+    "datePublished" (.Date.Format "2006-01-02")
+    "dateModified" (.Lastmod.Format "2006-01-02")
+    "author" (dict "@type" "Person" "name" (or .Params.author $author))
+    "image" $image
+    "url" .Permalink
+  -}}
+  {{- $graph = $graph | append $post -}}
+{{- end -}}
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Blog",
-      "name": "{{ .Site.Title }}",
-      "url": "{{ .Site.BaseURL }}",
-      "description": "{{ .Site.Params.description }}",
-      "publisher": {
-        "@type": "Person",
-        "name": "{{ $author }}"
-      }
-    }{{ if and .IsPage (eq .Section "posts") }},
-    {
-      "@type": "BlogPosting",
-      "headline": "{{ .Title }}",
-      "description": "{{ .Summary | plainify | htmlEscape }}",
-      "datePublished": "{{ .Date.Format "2006-01-02" }}",
-      "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
-      "author": {
-        "@type": "Person",
-        "name": "{{ with .Params.author }}{{ . }}{{ else }}{{ $author }}{{ end }}"
-      },
-      "image": "{{ with .Params.cover }}{{ .image | absURL }}{{ else if .Params.images }}{{ (index .Params.images 0) | absURL }}{{ else }}{{ (index .Site.Params.images 0) | absURL }}{{ end }}",
-      "url": "{{ .Permalink }}"
-    }{{ end }}
-  ]
-}
+{{- dict "@context" "https://schema.org" "@graph" $graph | jsonify -}}
 </script>

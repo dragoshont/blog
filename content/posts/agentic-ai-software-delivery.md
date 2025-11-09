@@ -8,7 +8,7 @@ tags: ["AI", "Software Engineering", "Requirements", "RAG", "MCP", "Agentic AI"]
 draft: false
 categories: ["AI", "Software Delivery"]
 keywords: ["agentic ai", "requirements", "spec driven", "mcp", "rag", "software delivery", "governance", "inner loop"]
-ShowToc: true
+ShowToc: false
 TocOpen: false
 cover:
   image: "/images/agentic-ai-cover.webp"

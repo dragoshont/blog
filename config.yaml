@@ -30,19 +30,30 @@ params:
             <a href="https://x.com/DragosHont" aria-label="X" class="hero-social-link">X</a>
           </div>
         </aside>
-        <section class="hero-content">
-          <p class="hero-kicker">Welcome</p>
-          <h1>Pragmatic Patterns: Leadership, Agentic AI, and the Developer Inner Loop.</h1>
-          <p>I share actionable insights from over ⭐⭐ <strong>15 years</strong> building high-performing teams and resilient platforms in finance, banking, and security. My focus is on achieving operational excellence through code, cloud, and automation.</p>
-          <p>I build teams by empowering developers, leading by example with a deep love for code, cloud, and automation, and using AI responsibly to accelerate clarity—especially at the requirements stage where most delivery friction originates.</p>
-          <p>When I'm not exploring new tech, I'm planning the next travel adventure with my family.</p>
-          <div class="hero-topics" aria-label="Featured topics">
-            <span>Agentic AI</span>
-            <span>Platform Engineering</span>
-            <span>DevOps</span>
-            <span>Governance</span>
+        <section class="hero-content" aria-describedby="hero-headline">
+          <div class="hero-kicker-row">
+            <span class="hero-kicker"># Welcome</span>
+            <span class="hero-secondary">Pragmatic Patterns Hub</span>
           </div>
-          <p class="hero-cta">→ <a href="#recent-posts-list"><strong>Explore my latest posts</strong></a> or read the <a href="/about/"><strong>full bio</strong></a>.</p>
+          <div class="hero-headline-card" id="hero-headline">
+            <h1>Pragmatic Patterns: Leadership, Agentic AI, and the Developer Inner Loop.</h1>
+            <p class="hero-summary">I share actionable insights from over ⭐⭐ <strong>15 years</strong> building high-performing teams and resilient platforms across finance, banking, and security with an obsession for operational excellence.</p>
+            <p class="hero-summary">My playbook combines empowered teams, hands-on engineering leadership, and responsible AI to accelerate clarity where delivery friction begins—upstream in requirements and architecture.</p>
+            <p class="hero-summary">When I'm not exploring new tech, I'm mapping out the next travel adventure with my family.</p>
+            <div class="hero-links">
+              <a class="hero-link hero-link-primary" href="#recent-posts-list">Explore my latest posts</a>
+              <a class="hero-link hero-link-ghost" href="/about/">Read the full bio</a>
+            </div>
+          </div>
+          <div class="hero-topics-block" aria-label="Featured topics">
+            <h2>Featured Topics</h2>
+            <div class="hero-topics">
+              <a href="/tags/agentic-ai/">Agentic AI</a>
+              <a href="/tags/platform-engineering/">Platform Engineering</a>
+              <a href="/tags/devops/">DevOps</a>
+              <a href="/tags/governance/">Governance</a>
+            </div>
+          </div>
         </section>
       </div>
 

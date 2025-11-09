@@ -1,0 +1,13 @@
+{{- with site.Params.homeInfoParams }}
+<section class="home-info home-hero-section" aria-labelledby="home-hero-title">
+  <header class="entry-header">
+    <h1 id="home-hero-title">{{ .Title | markdownify }}</h1>
+  </header>
+  <div class="entry-content home-hero-content">
+    {{ .Content | markdownify }}
+  </div>
+  <footer class="entry-footer">
+    {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
+  </footer>
+</section>
+{{- end -}}

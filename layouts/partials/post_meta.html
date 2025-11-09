@@ -1,0 +1,36 @@
+{{- $items := slice -}}
+
+{{- if not .Date.IsZero -}}
+  {{- $label := .Date | time.Format (default "January 2, 2006" site.Params.DateFormat) -}}
+  {{- $items = $items | append (dict "label" $label "title" (.Date.String)) -}}
+{{- end -}}
+
+{{- if (.Param "ShowReadingTime") -}}
+  {{- $reading := i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime) -}}
+  {{- $items = $items | append (dict "label" $reading) -}}
+{{- end -}}
+
+{{- if (.Param "ShowWordCount") -}}
+  {{- $words := i18n "words" .WordCount | default (printf "%d words" .WordCount) -}}
+  {{- $items = $items | append (dict "label" $words) -}}
+{{- end -}}
+
+{{- if not (.Param "hideAuthor") -}}
+  {{- with (partial "author.html" .) }}
+    {{- $items = $items | append (dict "label" . "safe" true) -}}
+  {{- end }}
+{{- end -}}
+
+{{- if gt (len $items) 0 }}
+  <div class="meta-pill-row">
+    {{- range $item := $items }}
+      <span class="meta-pill" {{ with $item.title }}title="{{ . }}"{{ end }}>
+        {{- if $item.safe -}}
+          {{- $item.label | safeHTML -}}
+        {{- else -}}
+          {{- $item.label -}}
+        {{- end -}}
+      </span>
+    {{- end }}
+  </div>
+{{- end -}}

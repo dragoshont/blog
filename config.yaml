@@ -34,6 +34,7 @@ params:
   keywords: ["software engineering","agentic ai","governance","requirements","mcp","rag","leadership"]
   ShowBreadCrumbs: true
   env: production
+  extend_head: true
   defaultTheme: "auto" # Respects the user's OS light/dark mode preference
   disableThemeToggle: false
   ShowShareButtons: true
@@ -56,6 +57,10 @@ menu:
       name: Tags
       url: /tags/
       weight: 30
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 40
 
 # --- Outputs for Search Functionality ---
 outputs:

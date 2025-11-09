@@ -37,6 +37,13 @@ params:
   # --- General Site Parameters ---
   author: "Dragos Hont"
   description: "A blog by Dragos Hont about pragmatic leadership, cloud, automation, and empowering developers."
+  # Homepage listing configuration
+  mainSections: ["posts"]
+  paginate: 10
+  homeInfoParams:
+    Title: "Welcome"
+    Content: |
+      Writing about pragmatic engineering leadership, agentic AI, governance, and the developer inner loop. Recent posts below.
   defaultTheme: "auto" # Respects the user's OS light/dark mode preference
   disableThemeToggle: false
   ShowShareButtons: true

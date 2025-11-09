@@ -11,7 +11,7 @@ keywords: ["agentic ai", "requirements", "spec driven", "mcp", "rag", "software 
 ShowToc: true
 TocOpen: false
 cover:
-  image: "/images/agentic-ai-cover.png"
+  image: "/images/agentic-ai-cover.webp"
   alt: "Conceptual diagram of agentic AI improving software delivery requirements"
   caption: "Agentic AI accelerates clarity in the requirements phase"
   relative: false

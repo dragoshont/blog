@@ -9,9 +9,9 @@ draft: false
 aliases:
   - /ai-killers
 cover:
-  image: "/images/the-silent-killers-of-enterprise-ai.png"
+  image: "/images/the-silent-killers-of-enterprise-ai.webp"
   alt: "Illustration for The Silent Killers of Enterprise AI"
-  caption: "Three hidden drags on enterprise AI velocity: the data disconnect, the cost illusion, and the interoperability tax"
+  caption: "Three hidden drags on AI velocity: disconnected data, invisible costs, and proprietary lock‑in"
   relative: false
 ---
 
@@ -87,4 +87,4 @@ I'm starting a journey to build a new open-source platform based on these princi
 - [How to Avoid Cloud Vendor Lock-In](https://www.cloudficient.com/blog/how-to-avoid-cloud-vendor-lock-in)
 
 
-*(Disclaimer: All views expressed here are my own and do not represent the opinions of my current or former employers.)*
+Disclaimer: All views expressed here are my own and do not represent the opinions of my current or former employers.

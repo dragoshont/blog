@@ -9,12 +9,7 @@
 {{ end }}
 
 {{ $term := .Data.Term }}
-<section class="home-posts-header">
-  <div class="home-posts-label">
-    <p class="home-posts-kicker">Latest Pragmatic Patterns</p>
-    <h2>Deep dives on software delivery, agentic AI, and resilient teams.</h2>
-  </div>
-</section>
+<h3>Latest Pragmatic Patterns</h3>
 <div class="home-post-grid" id="recent-posts-list">
   {{ range $index, $page := $paginator.Pages }}
     {{ $class := "post-entry" }}

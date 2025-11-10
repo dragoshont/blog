@@ -53,8 +53,8 @@ params:
           </div>
           <div class="hero-headline-card" id="hero-headline">
             <h3>Pragmatic Patterns: Leadership, Agentic AI, and the Developer Inner Loop.</h3>
-            <p class="hero-summary">I’m passionate about sharing lessons learned from 15+ years of building resilient platforms and high-performing teams across finance, banking, and security.</p>
-            <p class="hero-summary">I love turning complexity into clarity—empowering teams, practicing hands-on engineering leadership, and using responsible AI to reduce friction early in requirements and architecture.</p>
+            <p class="hero-summary">I’m passionate about continuous learning and staying ahead as a lifelong learner, building on 15+ years of experience creating resilient platforms and high-performing teams across finance, banking, and security.</p>
+            <p class="hero-summary">I focus on turning complexity into clarity, helping teams grow, practicing hands-on engineering leadership, and applying responsible AI to simplify requirements and architecture early while driving quality and reliable delivery.</p>
             <p class="hero-summary">When I'm not exploring new tech, I'm mapping out the next travel adventure with my family.</p>
             <div class="hero-links">
               <a class="hero-link hero-link-primary" href="#recent-posts-list">Explore my latest posts</a>

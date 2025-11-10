@@ -56,6 +56,5 @@ The ethical questions are still there: privacy, job displacement, bias. But with
 - **Compliance and security are embedded:** MCP servers enforce policies, track dependencies and surface vulnerabilities to strengthen resilience.
 - **Governance is essential:** lightweight, assisted and governed modes balance speed with compliance.
 - **Spec‑driven development depends on good requirements:** strong, validated specs are the foundation for reliable delivery.
- - **Spec‑driven development depends on good requirements:** strong, validated specs are the foundation for reliable delivery.
 
 Disclaimer: All views expressed here are my own and do not represent the opinions of my current or former employers.

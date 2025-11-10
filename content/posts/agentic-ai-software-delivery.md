@@ -48,6 +48,7 @@ Of course, governance matters. Organisations can adopt different modes depending
 The ethical questions are still there: privacy, job displacement, bias. But with provenance, confidence scores and human sign-offs, agentic AI can be deployed responsibly. And it's not just about AI - software engineering provides the templates and CI/CD pipelines, while cybersecurity ensures access control and compliance alignment. It's a convergence of disciplines, and requirements are the keystone.
 
 ### A Glimpse into an Automated Specification Toolkit
+
 To make this tangible, imagine a development workflow orchestrated as a seamless collaboration between the developer and their AI partner. This isn't about replacing the developer, but augmenting their expertise. The process unfolds in a cyclical, quality-driven loop:
 ![Spec-driven development workflow diagram](/images/spec-driven.png)
 

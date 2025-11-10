@@ -67,8 +67,7 @@ params:
         <h3>Featured Topics</h3>
         <nav class="home-topics-row" aria-label="Topic links">
           <a class="home-topic-chip" href="/tags/agentic-ai/">Agentic AI</a>
-          <a class="home-topic-chip" href="/tags/platform-engineering/">Platform Engineering</a>
-          <a class="home-topic-chip" href="/tags/devops/">DevOps</a>
+          <a class="home-topic-chip" href="/tags/mlops/">MLOps</a>
           <a class="home-topic-chip" href="/tags/governance/">Governance</a>
         </nav>
       </div>

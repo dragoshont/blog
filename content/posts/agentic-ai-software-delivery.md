@@ -4,7 +4,7 @@ summary: "How autonomous AI agents can transform the requirements phase - the bi
 date: 2025-11-09
 description: "Exploring how agentic AI, RAG, and the Model Context Protocol can clarify requirements and accelerate software delivery."
 author: "Dragos Hont"
-tags: ["AI", "Software Engineering", "Requirements", "RAG", "MCP", "Agentic AI"]
+tags: ["AI", "Software Engineering", "Requirements", "RAG", "MCP", "Agentic AI", "Governance"]
 draft: false
 categories: ["AI", "Software Delivery"]
 keywords: ["agentic ai", "requirements", "spec driven", "mcp", "rag", "software delivery", "governance", "inner loop"]

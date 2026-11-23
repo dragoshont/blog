@@ -3,7 +3,7 @@ title: "What Comes With You? Reusing Agent Harness Components"
 slug: what-comes-with-you-agent-harness-components
 description: "You're adding a feature in a different setup. Follow one model turn and one compatibility check to see what you can bring along, what you have to reconnect and how to test a component swap."
 author: Dragos Hont
-date: 2026-11-24
+date: 2026-11-24T00:00:00+02:00
 draft: false
 ---
 

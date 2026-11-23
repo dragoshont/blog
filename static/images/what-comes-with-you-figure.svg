@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="881" viewBox="0 0 640 881" role="img" aria-labelledby="title detail">
+  <title id="title">Two adapters, one ETA check</title>
+  <desc id="detail">run.mjs selects adapter-chat.mjs or adapter-messages.mjs for a local fixture. Either adapter hands runner.mjs the same action shape. The runner allows only set_delivery_fields, sends the fields to orders.mjs and passes the serialized response to check-eta.mjs. Only a passing check makes the runner return ready for review. runner.test.mjs covers the path with four tests. The optional SKILL.md tells the assistant how to run tests; an optional stop hook could invoke a test. The sample includes no hook.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0 8 4 0 8Z" fill="#32676d"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: "Segoe UI", Arial, sans-serif; fill: #202b30; }
+    .title { font-size: 32px; font-weight: 720; }
+    .intro, .body { font-size: 21px; fill: #47575d; }
+    .file { font-family: Consolas, Menlo, monospace; font-size: 24px; font-weight: 700; }
+    .adapter { font-size: 22px; }
+    .label { font-size: 24px; font-weight: 700; }
+    .edge { fill: none; stroke: #32676d; stroke-width: 2; marker-end: url(#arrow); }
+    .optional { fill: #fafffd; stroke: #79a59e; stroke-width: 2; stroke-dasharray: 8 6; }
+  </style>
+  <rect x="1" y="1" width="638" height="879" rx="22" fill="#eff7f5" stroke="#c3d8d5" stroke-width="2"/>
+  <text class="title" x="30" y="54">Two adapters, one ETA check</text>
+  <text class="intro" x="30" y="83">Swap the reply adapter; the check stays.</text>
+  <g class="node" id="run">
+    <rect x="30" y="103" width="580" height="66" rx="12" fill="#fafffd" stroke="#8eb2ad"/>
+    <text class="file" x="54" y="131">run.mjs</text>
+    <text class="body" x="54" y="157">Picks one adapter and its local fixture.</text>
+  </g>
+  <path class="edge" d="M320 173v10H170v14"/>
+  <path class="edge" d="M320 183H470v14"/>
+  <g class="node" id="chat">
+    <rect x="30" y="202" width="280" height="70" rx="12" fill="#d9eeea" stroke="#79a59e"/>
+    <text class="file adapter" x="50" y="232">adapter-chat.mjs</text>
+    <text class="body" x="50" y="258">Chat Completions fixture</text>
+  </g>
+  <g class="node" id="messages">
+    <rect x="330" y="202" width="280" height="70" rx="12" fill="#d9eeea" stroke="#79a59e"/>
+    <text class="file adapter" x="350" y="232">adapter-messages.mjs</text>
+    <text class="body" x="350" y="258">Messages fixture</text>
+  </g>
+  <path d="M170 276v14h300v-14" fill="none" stroke="#32676d" stroke-width="2"/>
+  <path class="edge" d="M320 290v20"/>
+  <g class="node" id="runner">
+    <rect x="30" y="315" width="580" height="70" rx="12" fill="#fafffd" stroke="#8eb2ad"/>
+    <text class="file" x="54" y="345">runner.mjs</text>
+    <text class="body" x="54" y="371">Allows only set_delivery_fields with known keys.</text>
+  </g>
+  <path class="edge" d="M320 389v20"/>
+  <g class="node" id="orders">
+    <rect x="30" y="414" width="580" height="70" rx="12" fill="#fafffd" stroke="#8eb2ad"/>
+    <text class="file" x="54" y="444">orders.mjs</text>
+    <text class="body" x="54" y="470">Returns the JSON response to runner.mjs.</text>
+  </g>
+  <path class="edge" d="M320 488v20"/>
+  <g class="node" id="eta-check">
+    <rect x="30" y="513" width="580" height="70" rx="12" fill="#264950" stroke="#264950"/>
+    <text class="file" x="54" y="543" style="fill:#fafffd">check-eta.mjs</text>
+    <text class="body" x="54" y="569" style="fill:#e7f2f1">Checks ETA and estimatedDeliveryAt.</text>
+  </g>
+  <text class="intro" x="30" y="615">Pass: ready for review. Failure: runner holds.</text>
+  <path d="M30 637H610" stroke="#c3d8d5" stroke-width="2"/>
+  <text class="intro" x="30" y="668">Optional: guidance or a trigger for the test.</text>
+  <g class="node" id="skill">
+    <rect class="optional" x="30" y="688" width="280" height="70" rx="12"/>
+    <text class="file adapter" x="50" y="718">SKILL.md</text>
+    <text class="body" x="50" y="744">Tells the agent what to run.</text>
+  </g>
+  <g class="node" id="hook">
+    <rect class="optional" x="330" y="688" width="280" height="70" rx="12"/>
+    <text class="label" x="350" y="718">stop hook</text>
+    <text class="body" x="350" y="744">Not in the sample</text>
+  </g>
+  <path class="edge" d="M170 762v20"/>
+  <path class="edge" d="M470 762v20"/>
+  <g class="node" id="test">
+    <rect x="30" y="787" width="580" height="70" rx="12" fill="#fafffd" stroke="#8eb2ad"/>
+    <text class="file" x="54" y="817">runner.test.mjs</text>
+    <text class="body" x="54" y="843">Runs the same path as four tests.</text>
+  </g>
+</svg>

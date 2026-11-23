@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="621" viewBox="0 0 640 621" role="img" aria-labelledby="title detail">
+  <title id="title">From MON-1 to a merge decision</title>
+  <desc id="detail">requirements/monitor.md holds MON-1. The optional worker.agent.md profile carries it into the handoff, and the worker proposes a pull request. A stop hook is optional and not included. verify-monitor.yml, an unexercised template, checks out the PR merge commit and the base revision and runs the base revision's check-monitor.mjs against the candidate. Branch protection is a manual repository setting that can require monitor-contract and a maintainer review. Dashed boxes are optional or not exercised.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0 8 4 0 8Z" fill="#784c34"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: "Segoe UI", Arial, sans-serif; fill: #202b30; }
+    .title { font-size: 32px; font-weight: 720; }
+    .intro, .body { font-size: 21px; fill: #47575d; }
+    .file { font-family: Consolas, Menlo, monospace; font-size: 24px; font-weight: 700; }
+    .label { font-size: 24px; font-weight: 700; }
+    .edge { stroke: #784c34; stroke-width: 2; marker-end: url(#arrow); }
+    .optional { fill: #fffdf9; stroke: #bca995; stroke-width: 2; stroke-dasharray: 8 6; }
+  </style>
+  <rect x="1" y="1" width="638" height="619" rx="22" fill="#fcf7f0" stroke="#ded2c4" stroke-width="2"/>
+  <text class="title" x="30" y="54">From MON-1 to a merge decision</text>
+  <text class="intro" x="30" y="83">PR path. Dashed: optional or not exercised.</text>
+  <g class="node" id="requirement">
+    <rect x="30" y="107" width="580" height="73" rx="12" fill="#fffdf9" stroke="#bca995"/>
+    <text class="file" x="54" y="138">requirements/monitor.md</text>
+    <text class="body" x="54" y="164">MON-1: the monitor gets the request ID.</text>
+  </g>
+  <path class="edge" d="M215 184v20"/>
+  <g class="node" id="worker">
+    <rect class="optional" x="30" y="209" width="370" height="73" rx="12"/>
+    <text class="file" x="54" y="240">worker.agent.md</text>
+    <text class="body" x="54" y="266">Optional: carries MON-1</text>
+  </g>
+  <g class="node" id="hook">
+    <rect class="optional" x="420" y="209" width="190" height="73" rx="12"/>
+    <text class="label" x="440" y="240">stop hook</text>
+    <text class="body" x="440" y="266">Not included</text>
+  </g>
+  <path class="edge" d="M215 286v20"/>
+  <g class="node" id="workflow">
+    <rect class="optional" x="30" y="311" width="580" height="73" rx="12"/>
+    <text class="file" x="54" y="342">verify-monitor.yml</text>
+    <text class="body" x="54" y="368">Template, not run: PR merge commit + base.</text>
+  </g>
+  <path class="edge" d="M320 388v20"/>
+  <g class="node" id="verifier">
+    <rect x="30" y="413" width="580" height="73" rx="12" fill="#f3e5d7" stroke="#aa7d5f"/>
+    <text class="file" x="54" y="444">check-monitor.mjs</text>
+    <text class="body" x="54" y="470">Runs from base; exercises the candidate path.</text>
+  </g>
+  <path class="edge" d="M320 490v20"/>
+  <g class="node" id="branch">
+    <rect x="30" y="515" width="580" height="73" rx="12" fill="#293d44" stroke="#e2ecee" stroke-width="2" stroke-dasharray="8 6"/>
+    <text class="label" x="54" y="546" style="fill:#fffdf9">Branch protection, set by hand</text>
+    <text class="body" x="54" y="572" style="fill:#e2ecee">Can require monitor-contract and reviewer approval.</text>
+  </g>
+</svg>
